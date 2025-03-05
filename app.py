@@ -4,8 +4,8 @@ import os
 from io import BytesIO
 
 # Configure Streamlit app
-st.set_page_config(page_title="📅 Data Sweeper", layout="wide")
-st.title('📅 Data Sweeper')
+st.set_page_config(page_title="💿 Data Sweeper", layout="wide")
+st.title('💿 Data Sweeper')
 st.write('Transform your files between CSV and Excel formats with built-in data cleaning and visualization!')
 
 uploaded_files = st.file_uploader("Upload your files (CSV or Excel):", type=["csv", "xlsx"], accept_multiple_files=True)
